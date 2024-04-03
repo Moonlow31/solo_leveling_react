@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function Header({logoImg}) {
     return (
     <header className="header">
@@ -15,5 +17,9 @@ function Header({logoImg}) {
     </header>
     )
 }
+
+Header.propTypes = {
+    logoImg: PropTypes.string.isRequired
+}.isRequired
 
 export default Header
