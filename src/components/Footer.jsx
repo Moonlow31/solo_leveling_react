@@ -1,7 +1,14 @@
-function Footer({handleClick}) {
+import { useState } from "react";
+
+function Footer() {
+    const [change, setChange] = useState(false);
+    let handleClick = () => {
+      setChange(!change);
+    }
+    let toggleClassCheck = change? 'active': '';
     return (
-    <footer className="footer">
-        <button onClick={handleClick}>More</button>
+    <footer className={`footer${toggleClassCheck}`}>
+        <button onClick={handleClick}>Recycle</button>
     </footer>
     )
 }

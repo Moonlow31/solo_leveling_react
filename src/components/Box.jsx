@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Box({plasticImg,}) {
+function Box({plasticImg}) {
     return (
     <div className="box">
         <h2>Plastic</h2>

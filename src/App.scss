@@ -87,7 +87,7 @@
       bottom: 0;
       height: 100px;
       width: 100%;
-      margin-left: 30%;
+      background-color: rgba(251, 255, 0, 0.285);
       button{
         font-size: 1rem;
         border-radius: 20px;
@@ -96,5 +96,24 @@
         padding: 15px 35px;
       }
     }
+  }
+}
+
+.footeractive{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  margin-left: 0;
+  background-color: rgba(0, 213, 0, 0.343);
+  button{
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    padding: 15px 35px;
   }
 }
